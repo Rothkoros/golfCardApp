@@ -1,8 +1,23 @@
-import { apiGet } from "./api_func.js";
+import { apiGetFox } from "./api_func.js";
 import { apiGet2 } from "./api_func2.js";
-apiGet()
+
+export function courseFunc1() {
+    apiGetFox();
+}
+// apiGetOaks()
+// apiGetThanks()
 apiGet2()
 
+// function courseFunc1() {
+//     document.getElementById("MyButton").onclick = apiGetFox()
+
+// }
+// document.getElementById("MyButton").onclick = function() {
+//     alert("Button Clicked");
+// }
+// document.getElementById("MyButton").onclick = function() {
+//         alert("Button Clicked");
+//     }
 // var ourRequest = new XMLHttpRequest();
 // ourRequest.open('GET', 'https://golf-courses-api.herokuapp.com/courses', true)
 

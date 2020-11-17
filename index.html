@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer type="module" src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="styles.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="api_func.js"></script>
     <title>Document</title>
 </head>
 
@@ -84,286 +85,294 @@
             </tr>
             <tr class="player1">
                 <td class="rowTitle">
-                    <input type="text" id="" placeholder="player1">
+                    <input type="text" class="" placeholder="player1">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <!-- <input id="inTotal1" class="inTotal1" min="0"> -->
+                    <div class="inTotal1" id="inTotal1"></div>
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreOut" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreOut" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreOut" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreOut" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreOut" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreOut" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreOut" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreOut" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="number" class="player1ScoreOut" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <div class="outTotal1" id="outTotal1"></div>
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <div class="total1" id="total1"></div>
                 </td>
 
             </tr>
             <tr class="player2">
                 <td class="rowTitle">
-                    <input type="text" id="" placeholder="player2">
+                    <input type="text" class="" placeholder="player2">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <!-- <input type="text" class="inTotal2" id="inTotal2" min="0"> -->
+                    <div class="inTotal2" id="inTotal2"></div>
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <input type="text" class="player2ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <!-- <input type="text" class="outTotal2" id="outTotal2" min="0"> -->
+                    <div class="outTotal2" id="outTotal2"></div>
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="">
+                    <div class="total2" id="total2"></div>
                 </td>
             </tr>
 
             <tr class="player3">
                 <td class="rowTitle">
-                    <input type="text" id="" placeholder="player3">
+                    <input type="text" class="" placeholder="player3">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput32">
+                    <input type="text" class="player3ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput33">
+                    <input type="text" class="player3ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput34">
+                    <input type="text" class="player3ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput35">
+                    <input type="text" class="player3ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput36">
+                    <input type="text" class="player3ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput37">
+                    <input type="text" class="player3ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput38">
+                    <input type="text" class="player3ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput39">
+                    <input type="text" class="player3ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput40">
+                    <input type="text" class="player3ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput41">
+                    <div class="inTotal3" id="inTotal3"></div>
+
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput42">
+                    <input type="text" class="player3ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput43">
+                    <input type="text" class="player3ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput44">
+                    <input type="text" class="player3ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput45">
+                    <input type="text" class="player3ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput46">
+                    <input type="text" class="player3ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput47">
+                    <input type="text" class="player3ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput48">
+                    <input type="text" class="player3ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput49">
+                    <input type="text" class="player3ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput50">
+                    <input type="text" class="player3ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput51">
+                    <div class="outTotal3" id="outTotal3"></div>
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput52">
+                    <div class="total3" id="total3"></div>
                 </td>
             </tr>
 
             <tr class="player4">
                 <td class="rowTitle">
-                    <input type="text" id="" placeholder="player4">
+                    <input type="text" class="" placeholder="player4">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput32">
+                    <input type="text" class="player4ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput33">
+                    <input type="text" class="player4ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput34">
+                    <input type="text" class="player4ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput35">
+                    <input type="text" class="player4ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput36">
+                    <input type="text" class="player4ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput37">
+                    <input type="text" class="player4ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput38">
+                    <input type="text" class="player4ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput39">
+                    <input type="text" class="player4ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput40">
+                    <input type="text" class="player4ScoreIn" min="0">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput41">
+                    <div class="inTotal4" id="inTotal4"></div>
+
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput42">
+                    <input type="text" class="player4ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput43">
+                    <input type="text" class="player4ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput44">
+                    <input type="text" class="player4ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput45">
+                    <input type="text" class="player4ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput46">
+                    <input type="text" class="player4ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput47">
+                    <input type="text" class="player4ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput48">
+                    <input type="text" class="player4ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput49">
+                    <input type="text" class="player4ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput50">
+                    <input type="text" class="player4ScoreOut">
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput51">
+                    <div class="outTotal4" id="outTotal4"></div>
                 </td>
                 <td class="rowCell">
-                    <input type="text" id="testInput52">
+                    <div class="total4" id="total4"></div>
                 </td>
-            </tr>
 
 
         </table>
     </div>
+    <select id="selectCourseMenue" onchange="courseFunc1()">
+        <option >Fox Hollow</option>
+        <option >Thanksgiving Point</option>
+        <option >Spanish Oaks</option>
+    </select>
     <button id="updatescores">Update Scores</button>
-    <div id="courseInfo">
-    </div>
+    <div id="firstClick"></div>
 
 
 
